@@ -3,6 +3,8 @@
 
 ![qd_ex](https://github.com/user-attachments/assets/27f44de9-f0d8-48d6-bd61-de160be5ea44)
 
+В качестве модели классификации использована EfficientNet-B0 с дообучением последних слоев. Метрика F1-macro на тестовой выборке составила 92%. В качестве данных для обучения использовн избранный набор 60 классов из открытого датасета скетчей [Quick, Draw! The Data](https://quickdraw.withgoogle.com/data). Backend реализован на FastAPI, интерфейс — на HTML/JS с Canvas API.
+
 ## Запуск проекта
 ### 1. Через pip
 ```
