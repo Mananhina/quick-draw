@@ -20,6 +20,10 @@ uvicorn main:app --port 8000
 
 ### 2. Через Docker со сборкой образа
 ```
+# Клонируем репозиторий
+git clone https://github.com/Mananhina/quick-draw.git
+cd quick-draw
+
 # Собираем образ
 docker build -t quick-draw-app .
 
